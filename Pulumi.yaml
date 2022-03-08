@@ -1,0 +1,3 @@
+name: aws-iam-role
+runtime: go
+description: Code to create aws iam role based on role type

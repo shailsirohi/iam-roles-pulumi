@@ -1,0 +1,5 @@
+encryptionsalt: v1:dfNlvZv5tBM=:v1:wY/3Y3Pi1cLi3Eq5:VneNx9BFI+FRqiBtLlnLkkTTLhV8aA==
+config:
+  aws:region: ap-south-1
+  aws-iam-role:roleName: power-user-test
+  aws-iam-role:roleType: power-user
