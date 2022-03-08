@@ -18,6 +18,7 @@ func main() {
 
 		// Create an AWS resource (S3 Bucket)
 		iamRole, err := iam.NewRole(ctx,name,&iam.RoleArgs{
+			Name: pulumi.String(name),
 			InlinePolicies: iam.RoleInlinePolicyArray{
 				iam.RoleInlinePolicyArgs{
 					Name: pulumi.String("access-policy"),

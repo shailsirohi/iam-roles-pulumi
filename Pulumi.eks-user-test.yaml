@@ -1,0 +1,5 @@
+encryptionsalt: v1:l/OExY6q610=:v1:wr99oSMBGaJaEyhB:GanhAEH9jHkpUcnfMMfd3hRLFZde2Q==
+config:
+  aws:region: ap-south-1
+  aws-iam-role:roleName: eks-user-test
+  aws-iam-role:roleType: eks-user
